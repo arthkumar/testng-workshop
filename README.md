@@ -3,7 +3,7 @@ For those of you looking to gain some experience working with testng, here are a
 
 # Table of contents
 
-**Module 1: Introduction to TestNG**
+**[Module 1: Introduction to TestNG](src%2Ftest%2Fresources%2Fmodule-1.md)**
 
 - Understanding the need for TestNG in automation.
 - Installing and setting up TestNG in IntelliJ.
