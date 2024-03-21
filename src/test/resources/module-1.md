@@ -1,18 +1,18 @@
 # Module 1: Introduction to TestNG
 
 # Table of contents
-- [Understanding the need for TestNG in automation](#understanding-the-need-for-testng-in-automation)
-  - [Background](#background)
-  - [Features of TestNG](#features-of-testng)
-  - [Comparison of TestNG v/s JUnit](#comparison-of-testng-vs-junit)
-- [Installing and setting up TestNG in IntelliJ](#installing-and-setting-up-testng-in-intellij)
-  - [Pre-requisite](#pre-requisite)
-  - [SDKMAN Installation](#sdkman-installation)
-  - [JDK Installation](#jdk-installation)
-  - [Maven Installation](#maven-installation)
-  - [Install IntelliJ IDEA Community Edition](#install-intellij-idea-community-edition)
-  - [Setting up the project in IntelliJ IDEA](#setting-up-the-project-in-intellij-idea)
 
+- [Understanding the need for TestNG in automation](#understanding-the-need-for-testng-in-automation)
+    - [Background](#background)
+    - [Features of TestNG](#features-of-testng)
+    - [Comparison of TestNG v/s JUnit](#comparison-of-testng-vs-junit)
+- [Installing and setting up TestNG in IntelliJ](#installing-and-setting-up-testng-in-intellij)
+    - [Pre-requisite](#pre-requisite)
+    - [SDKMAN Installation](#sdkman-installation)
+    - [JDK Installation](#jdk-installation)
+    - [Maven Installation](#maven-installation)
+    - [Install IntelliJ IDEA Community Edition](#install-intellij-idea-community-edition)
+    - [Setting up the project in IntelliJ IDEA](#setting-up-the-project-in-intellij-idea)
 
 ## Understanding the need for TestNG in automation.
 
