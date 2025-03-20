@@ -28,32 +28,29 @@ readability of the scripts.
 
 ### Features of TestNG
 
-- It’s an open-source testing framework.
+- It’s an open-source testing framework. It contains open APIs which are publicly available to the developers.
 - It uses more Java features.
 - It supports multiple Before and After test annotations.
 - It supports XML-based test configurations.
 - It supports the parameterization of test methods.
-- It supports multi-threading testing.
+- It supports multi-threading testing. It supports execution in parallel.
 - It allows users to perform data-based testing.
 - It allows for report generation using HTML and XML reports.
-- It contains open APIs which are publicly available to the developers.
-- It supports execution in parallel.
 
 ### Comparison of TestNG v/s JUnit
 
-| Criteria	         | JUnit                                                                                                                                              | TestNG                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| Supported Testing | 	Unit Testing	                                                                                                                                     | Unit Testing, Functional Testing, Integration Testing, end-to-end Testing, etc. |
-| Annotations       | 	Do not support advanced annotation like @BeforeGroups, @AfterGroups	                                                                              | Supports advanced and unique annotations like @BeforeGroups, @AfterGroups       |
-| Test Suite	       | Uses @RunWith, @Suite to run the test suite	                                                                                                       | Uses an XML file to run the test suite                                          |
-| Dependency Tests	 | Missing Dependency tests	                                                                                                                          | Supports Dependency Tests                                                       |
-| Grouping Tests	   | Does not provide Grouping of test cases together                                                                                                   | 	Allows Grouping and executing of test cases together                           |
-| Order of Tests	   | Does not support	                                                                                                                                  | Supports ordering of test methods via a priority attribute                      |
-| Assumptions	      | Supports Assumptions to skip tests based on certain conditions                                                                                     | 	Does not support Assumptions                                                   | 
-| Custom Name	      | Provides provision for Custom descriptive names for tests                                                                                          | 	Does not provide Custom names                                                  | 
-| Reporting	        | Integrates with Maven to generate HTML reports	                                                                                                    | Has built-in HTML reports                                                       | 
-| Listeners	        | Supports listeners through Listeners API	                                                                                                          | Supports listeners through annotations                                          |
-| Ease of use       | 	Running tests requires a certain amount of dependency                                      Eg. for parameterization, one might need JUnit Jupiter | Writing and running tests is very easy                                          |
+| Criteria	         | JUnit                                                                                                                                              | TestNG                                                                                      |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Supported Testing | 	Unit Testing	                                                                                                                                     | Unit Testing, Functional Testing, Integration Testing, end-to-end Testing, etc.             |
+| Annotations       | 	Do not support advanced annotation like @BeforeGroups, @AfterGroups	                                                                              | Supports advanced and unique annotations like @BeforeGroups, @AfterGroups                   |
+| Test Suite	       | Uses @RunWith, @Suite to run the test suite	                                                                                                       | Uses an XML file to run the test suite                                                      |
+| Dependency Tests	 | Missing Dependency tests	                                                                                                                          | Supports Dependency Tests  using attributes like dependsOnMethods, dependsOnGroups          |
+| Grouping Tests	   | Does not provide Grouping of test cases together                                                                                                   | 	Allows Grouping and executing of test cases together using groups attributes               |
+| Order of Tests	   | Does not support	                                                                                                                                  | Supports ordering of test methods via a priority attribute                                  | 
+| Custom Name	      | Provides provision for Custom descriptive names for tests                                                                                          | 	Provide Custom names with describe attribute                                               | 
+| Reporting	        | Integrates with Maven to generate HTML reports	                                                                                                    | Has built-in HTML reports                                                                   | 
+| Listeners	        | Supports listeners through Listeners API	                                                                                                          | Supports listeners through annotations                                                      |
+| Ease of use       | 	Running tests requires a certain amount of dependency                                      Eg. for parameterization, one might need JUnit Jupiter | Writing and running tests is very easy and all dependencies come pre-built with the library |
 
 ## Installing and setting up TestNG in IntelliJ.
 
@@ -98,7 +95,7 @@ both Bash and ZSH shells.
 
 ### Maven Installation
 
-- Install Maven 11
+- Install Maven
   ```bash
      sdk install maven
   ```
